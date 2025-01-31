@@ -1,8 +1,8 @@
 import { describe, expect, it } from 'vitest';
-import { add } from './add.js';
+import { crc1 } from './crc1.js';
 
-describe('add', () => {
+describe('crc1', () => {
   it('should return correct result', () => {
-    expect(add(1, 2)).toBe(3);
+    expect(crc1([1, 2])).toBe(3);
   });
 });
